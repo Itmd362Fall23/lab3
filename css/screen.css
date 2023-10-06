@@ -236,8 +236,7 @@ body{
 #input-email label, input {
   vertical-align: center;
   display: inline-block;
-  padding-right: 0.25;
-  
+  padding-right: 0.25em;
 }
 
 #input-submit input {
@@ -249,7 +248,7 @@ body{
 
 #input-submit input{
    background-color: #5d5d5d;
-   margin: right;
+   margin: auto;
    float: right;
 }
 
@@ -291,7 +290,7 @@ body{
   
   
   h1{
-    font-size: 2 em;
+    font-size: 2em;
     line-height: 1em;
     padding: .10em;
 }
