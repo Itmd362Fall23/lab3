@@ -203,11 +203,32 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+main{
+  position: relative;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#content {
+  flex-wrap: nowarp;
+  margin: auto;
+  
+}
+h1{
+  font-size: 2.33em;
+  line-height: .5em;
+  padding: .5em;
+  text-align: center;
+}
 
 body{
-   background-color: #b7b7b7;
-   margin: auto;
-   text-align: center;
+    font-family: 'Young Serif', serif;
+    background-color: #b7b7b7;
+    margin: auto;
+    text-align: center;
 }
 
 
@@ -218,45 +239,72 @@ h1{
   
 }
 
-#input-email{
-  vertical-align: center;
-  display: inline-block;
-  padding: 0.25em
+#input-submit input{
+   background-color: #5d5d5d;
+   margin: right;
+   float: right;
 }
 
+#input-email label{
+  margin: auto;
+  vertical-align: center;
+  display: inline-block;
+  padding: 0.25em;
+}
+
+#input-age-verification label{
+  margin: auto;
+  vertical-align: center;
+  display: inline-block;
+  padding: 0.25em;
+}
 
 /* ===== STATE STYLES ======= */
 
 
 @media (min-width: 480px){
   html{
-   font-size: 1.667em;
-   line-height: 2.004em;
-   padding: 2.004em;
+    margin: auto;
+    font-size: 1.667em;
+    line-height: 2.004em;
+    padding: 2.004em;
   }
-  
+  main{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Montserrat', sans-serif;
+  }
+   
   h1{
-  font-size: 2 em;
-  line-height: 1em;
-  padding: .5em;
-  
+    font-size: 2 em;
+    line-height: 1em;
+    padding: .5em;
 }
-  
 }
 
-@media (min-width: 992px){
+@media (min-width: 992px){ 
   html{
-   font-size: 2em;
-   line-height: 2.4em;
-   padding: 2.4em;
+    margin: auto;
+    font-size: 2em;
+    line-height: 2.4em;
+    padding: 2.4em;
+  }
+  
+  main{ 
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Righteous', sans-serif;    
   }
   
   
   h1{
-  font-size: 2.7em;
-  line-height: 1em;
-  padding: .5em;
-  
+    font-size: 2.7em;
+    line-height: 1em;
+    padding: .5em;
 }
- 
 } 
