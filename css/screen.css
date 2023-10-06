@@ -206,8 +206,7 @@ label {
 main{
   width: 100%;
   padding: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
@@ -255,7 +254,8 @@ body{
 }
 
 #input-email label{
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   vertical-align: center;
   padding: 0.25em;
 }
@@ -278,8 +278,7 @@ body{
   
   main{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     
@@ -308,8 +307,7 @@ body{
   
   main{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     
   }
