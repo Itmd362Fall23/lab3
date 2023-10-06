@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  background-color: #b7b7b7;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -203,21 +204,22 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-@media (min-wdith: 992px) {
+@media (min-width: 480px){
   html{
-  
-  
+   font-size: 1.667em;
+   line-height: 2.004em;
+   padding: 2.004em;
   }
-} 
+}
+
 
 
 /* ===== STATE STYLES ======= */
-@media (min-width: 480px){
-
+@media (min-width: 992px){
   html{
-    font-size: 2.2779em;
-    line-height: 2.733em;
-    padding: 2.733em;
+   font-size: 2em;
+   line-height: 2.4em;
+   padding: 2.4em;
   }
-
-}
+ 
+} 
