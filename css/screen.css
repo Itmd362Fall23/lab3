@@ -225,6 +225,26 @@ body{
     padding: 1em;
 }
 
+#input-age-verificatgion label, input{
+  vertical-align: center;
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+#input-email label, input {
+  vertical-align: center;
+  display: inline-block;
+  padding-right: 0.25;
+  
+}
+
+#input-submit input {
+  display: flex;
+  float: right;
+  
+}
+
+
 #input-submit input{
    background-color: #5d5d5d;
    margin: right;
@@ -234,7 +254,6 @@ body{
 #input-email label{
   margin: auto;
   vertical-align: center;
-  display: inline-block;
   padding: 0.25em;
 }
 
@@ -253,15 +272,15 @@ body{
     font-size: 1.667em;
     line-height: 2.004em;
     padding: 2.004em;
-    font-family: 'Montserrat', sans-serif;
     vertical-align: center;
   } 
   
   main{
-    width: 100%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     
   }
   
